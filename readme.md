@@ -7,6 +7,13 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/license.svg" alt="License"></a>
 </p>
 
+O InventApp aplikaciji
+
+Web aplikacija „InventApp“ napravljena je kao rješenje za unaprjeđenje zastarjelog sustava za vođenje inventara i poboljšanje procesa popisivanja stavki inventara. Ključne prednosti ovakvog sustava u odnosu na prethodni su mogućnost pristupa s više uređaja (mobilnog ili osobnog računala) gdje je jedini zahtjev pristup internetu. Pomoću QR tehnologije omogućena je značajka kreiranja i čitanja jedinstvenog koda za pojedinu vrstu artikla, koji može biti zalijepljen na poleđini artikla i time olakšati proces popisivanja.
+
+Aplikacija se sastoji od korisničkog sučelja (eng. front-end) izrađenog u Vue2.js frameworku i baze podataka (eng. back-end) napravljene pomoću Laravel 5.5. frameworka. Korisničko sučelje služi za unos, pregled, izmjenu i brisanje atributa definiranih u bazi podataka. Baza podataka pohranjuje podatke o korisnicima, tvrtkama, prostoru, prostorijama, kategorijama i vrstama koje definiraju stavke inventara.
+
+
 ## About Laravel
 
 Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel attempts to take the pain out of development by easing common tasks used in the majority of web projects, such as:
